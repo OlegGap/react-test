@@ -1,0 +1,6 @@
+[
+ { "id": "1", "title": "lifestyle", "link": "/lifestyle" },
+  { "id": "2", "title": "photodiary", "link": "/photodiary" },
+  { "id": "3", "title": "music", "link": "/music" },
+  { "id": "4", "title": "travel", "link": "/travel" }
+]
