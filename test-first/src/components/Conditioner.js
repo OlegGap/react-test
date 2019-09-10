@@ -16,8 +16,10 @@ class Conditioner extends React.Component {
   }
 
   onDecrease() {
+    console.log(this);
+    
     this.setState(function(prevState) {
-      if (prevState.temperature == 0) {
+      if (prevState.temperature === 0) {
         return { temperature: prevState.temperature };
       } else {
         return { temperature: prevState.temperature - 1 };
